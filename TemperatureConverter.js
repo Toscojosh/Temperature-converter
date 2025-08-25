@@ -2,10 +2,17 @@
 console.log('---CONVERSION FROM CELCIUS TO KELVIN=----')
 function convertCelciusToKelvin(temp){
     let TempInKelFromCel = temp + 273
+    return TempInKelFromCel
     
     console.log(TempInKelFromCel)
 
 }
+let TempInKelFromCel= convertCelciusToKelvin(Temp)
+
+
+
+
+
 
 
 //CONVERSION FROM KELVIN TO CELCIUS
@@ -13,19 +20,36 @@ console.log('---CONVERSION FROM KELVIN TO CELCIUS')
 
 function convertKelvinToCelcius(temp){
     let TempInCelFromK = temp - 273
+    return TempInCelFromK
     
     console.log(TempInCelFromK)
 }
+
+let TempInCelFromK = convertKelvinToCelcius(Temp)
+
+
+
+
+
+
 
 
 //CONVERSION FROM CELCIUS TO FAHRENHEIT
 console.log('---CONVERSION FROM CELCIUS TO FAHRENHEIT---')
 function convertCelciusToFahrenheit(Temp){
     let TempInFahrFromCel = (Temp * 9/5) + 32
+    return TempInFahrFromCel
 
     console.log(TempInFahrFromCel)
 
 }
+
+let TempInFahrFromCel = convertCelciusToFahrenheit(Temp)
+
+
+
+
+
 
 
 
@@ -35,20 +59,35 @@ function convertCelciusToFahrenheit(Temp){
 console.log('---CONVERSION FROM  FAHRENHEIT TO CELCIUS ---')
 function convertFahrenheitToCelcius(Temp){
     let TempInCelfromFahr = (Temp - 32)  * 9/5
+    return TempInCelfromFahr
 
     console.log(TempInCelfromFahr)
 
 }
+let TempInCelfromFahr = convertFahrenheitToCelcius(Temp)
+
+
+
+
+
+
 
 
 //CONERSION FROM KELVIN TO FAHRENHEIT
 console.log('-----CONVERSION FROM KELVIN TO FAHRENHEIT')
 function convertKelvinToFahrenheit(Temp){
     let TempInFahrFromKel = (Temp - 273) * 9/5 + 32 
+    return TempInFahrFromKel
 
     console.log(TempInFahrFromKel)
 
+
 }
+let TempInFahrFromKel = convertKelvinToFahrenheit(Temp)
+
+
+
+
 
 
 
@@ -56,8 +95,9 @@ function convertKelvinToFahrenheit(Temp){
 console.log('-----CONVERSION FROM FAHRENHEIT KELVIN')
 function convertFahrenheitToKelvin(Temp){
     let TempInKelFromFahr = (Temp - 32) * 5/9 + 273 
+    return TempInKelFromFahr
 
     console.log(TempInKelFromFahr)
 
 }
-
+let  TempInKelFromFahr = convertFahrenheitToKelvin(Temp)
